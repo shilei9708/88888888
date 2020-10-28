@@ -11,6 +11,7 @@ public class test1 {
         Jedis jedis = new Jedis("hadoop102", 6379);
         System.out.println(jedis.get("abc"));
         System.out.println("this is master");
+        System.out.println("999");
         jedis.close();
     }
 }
