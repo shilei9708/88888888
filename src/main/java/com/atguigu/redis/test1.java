@@ -10,6 +10,7 @@ public class test1 {
     public static void main(String[] args) {
         Jedis jedis = new Jedis("hadoop102", 6379);
         System.out.println(jedis.get("abc"));
+        System.out.println("this is master");
         jedis.close();
     }
 }
