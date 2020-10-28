@@ -13,6 +13,7 @@ public class test2 {
         Jedis jedis = pool.getResource();
         System.out.println(jedis.get("abc"));
         System.out.println("this is master");
+        System.out.println("11111");
         pool.close();
     }
 }
