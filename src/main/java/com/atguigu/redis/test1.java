@@ -12,7 +12,7 @@ public class test1 {
         System.out.println(jedis.get("abc"));
         System.out.println("this is master");
         System.out.println("123");
-
+        System.out.println("11111111111111111111111111");
         System.out.println("999");
 
         jedis.close();
